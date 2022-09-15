@@ -1,4 +1,4 @@
-# Open5gs AMF crashes Vulnerability
+# Open5gs AMF DOS Vulnerability
 
 Recently, we discovered a logic vulnerability that may cause Open5gs AMF to crash during a code audit of Open5gs Ver2.4.9. 
 The specific causes of the vulnerability are as follows:
