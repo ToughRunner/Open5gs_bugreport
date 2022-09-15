@@ -111,7 +111,18 @@ In result, when an attacker initiates multiple NG setup requests, AMF will crash
 
 
 ## POC
-![](https://notes.sjtu.edu.cn/uploads/upload_85b8d1f6c2d72aefbc49746d78ad40fc.png)
+![](https://raw.githubusercontent.com/ToughRunner/Open5gs_bugreport/main/poc0.png)
+
+
+## Upadate
+
+We have reported this vulnerability to the vendor through email at 03 Aug 2022, but didn't get a reply.
+
+The vendor pushed a [commit](https://github.com/open5gs/open5gs/commit/700c71ef4ceb279cacdb51b111dc9c94885dce23) at 05 Aug 2022, renaming the variable names from `gnb` to `peer` which didn't fix this vulnerability.
+
+We confirmed that the latest version(2.4.10) is still affected by this vulnerability.
+
+![](https://raw.githubusercontent.com/ToughRunner/Open5gs_bugreport/main/poc1.png)
 
 ## Acknowledgment
-Credit to @ToughRunner,@leonW7,@HenryzhaoH from NSSL of Shanghai Jiao Tong University.
+Credit to @ToughRunner,@leonW7,@HenryzhaoH from Shanghai Jiao Tong University.
