@@ -124,5 +124,6 @@ We confirmed that the latest version(2.4.10) is still affected by this vulnerabi
 
 ![](https://raw.githubusercontent.com/ToughRunner/Open5gs_bugreport/main/poc1.png)
 
+CVE-2022-40890 had been assigned.
 ## Acknowledgment
 Credit to @ToughRunner,@leonW7,@HenryzhaoH from Shanghai Jiao Tong University.
